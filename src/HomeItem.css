@@ -1,0 +1,52 @@
+.homeBannerItemDiv{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 20px;
+      top: 22px;
+      padding: 0 20px;
+      width: 100%;
+      transition: transform 0.1s ease-in;
+      box-shadow: 0 6px 18px -9px rgb(0, 0, 0);
+  
+}
+
+.homeBannerItemDivCard{
+    
+      background-color: white;
+      flex-direction: column;
+      width: 343;
+      box-sizing: border-box;
+      padding: 20px 0 15px;
+      box-shadow: 0 6px 18px -9px rgb(0, 0, 0);
+    
+
+}
+.divCardTitle{
+      margin: 0 20px;
+      font-size: 21px;
+      font-weight: 700;
+}
+.imagehomeItem{
+      margin: 10px 20px;
+      display: grid;
+      grid-template-columns: auto auto;
+      flex-direction: column;
+    
+}
+.ItemCard{
+      height: 144px;
+      width: 144px;
+
+     
+      
+}
+
+    
+
+.ItemCardImage{
+      width: 100%;
+}
+.imageName{
+      font-size: 12px;
+      font-weight: 500px;
+}
